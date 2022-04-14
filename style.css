@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20vh;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+img.card-img-top {
+    /* border: 2px solid black; */
+    width: 15rem;
+    height: 14rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+
+/* Registration form css */
+
+.regform{
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.regform1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lab-name,.lab-email,.lab-contact,.lab-address,.lab-id,.lab-student-id {
+    display: flex;
+    flex-direction: row;
+}
+
+label.form-label {
+    width: 15%;
+}
+
+input#validationDefault01 {
+    width: 40%;
+}
+
+.form-email,.form-contact,.form-address,.form-id,.form-student-id {
+    width: 30%;
+}
+
+.white-space{
+    padding: 1rem;
+}
+
+.reg-btn {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Student Data css */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: rgb(215, 229, 231);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03);
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #f2f2f2;
+    text-align: center;
+    color: rgb(1, 1, 1);
+    padding: 8px 30px;
+    padding: 8px;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+td{
+    font-size: 13px;
+}
+
+.stu-data,.atn-data{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+thead{
+    background-color: rgb(51, 133, 255);
+    border-radius: 15px;
+}
